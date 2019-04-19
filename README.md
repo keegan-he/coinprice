@@ -2,20 +2,20 @@
 
 ## Current crypto prices
 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
-*Display current crypto price info
-API info here: https://coinlore.com
+*Display current crypto price using
+API from https://coinlore.com
 
+##### gif demo
+![coinprice](coinprice_demo.gif)
 
 Parameters:
 coinID
 https://api.coinlore.com/api/tickers/
 
-### API Coin IDs for Project: 
-* BTC: 
-* LTC: 
-* ETH: 
-* VEN:
-* XLM: 
+### API Coin IDs used: 
+* BTC
+* LTC
+* ETH
+* VET
+* XLM
 
-##### gif demo
-![coinprice](coinprice_demo.gif)
