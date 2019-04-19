@@ -1,14 +1,13 @@
-# Crypto Prices
+# Coinprice
 
-## Current crypto prices
+## Display current price for 5 coins
 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
-*Display current crypto price using
-API from https://coinlore.com
+* API - https://coinlore.com
 
-##### gif demo
+##### demo:
 ![coinprice](coinprice_demo.gif)
 
-Parameters:
+Property parameters:
 coinID
 https://api.coinlore.com/api/tickers/
 
@@ -19,3 +18,10 @@ https://api.coinlore.com/api/tickers/
 * VET
 * XLM
 
+### Todo:
+
+* ~Fetch coin data~
+* ~Loop through for specified coin info~
+* Update coin name display
+* Input box
+* UI / CSS change for update button
