@@ -1,6 +1,6 @@
 # Coinprice
 
-## Display current price for 5 coins
+## Display current $$$ for 5 coins
 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 * API - https://coinlore.com
 
@@ -22,6 +22,6 @@ https://api.coinlore.com/api/tickers/
 
 * ~Fetch coin data~
 * ~Loop through for specified coin info~
-* Update coin name display
-* Input box
+* Update dynamic coin name display with JS
+* Add input box
 * UI / CSS change for update button
