@@ -17,3 +17,5 @@ https://api.coinlore.com/api/tickers/
 * VEN:
 * XLM: 
 
+##### gif demo
+![coinprice](coinprice_demo.gif)
