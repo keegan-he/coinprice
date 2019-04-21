@@ -1,4 +1,4 @@
-# Coinprice
+# Coinprice in Vanilla Javascript
 
 ## Display current $$$ for 5 coins
 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
