@@ -42,9 +42,9 @@
     padding-left: 10%;
     align-self: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20px;
-    grid-row-gap: 10vh;
-    grid-column-gap: 30px;
+    /* grid-template-rows: 20px; */
+    /* grid-row-gap: 10vh;
+    grid-column-gap: 30px; */
 
 }
 
