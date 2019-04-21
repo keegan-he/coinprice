@@ -22,6 +22,7 @@ https://api.coinlore.com/api/tickers/
 
 * ~Fetch coin data~
 * ~Loop through for specified coin info~
-* Update dynamic coin name display with JS
-* Add input box
+* ~Add coin names~
+* ~Update coin name display (CSS)~
+* Add input box for new coin
 * UI / CSS change for update button
