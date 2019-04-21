@@ -36,6 +36,11 @@
     height: 5px;
 }
 
+.Coins {
+    background-color: rgb(135, 157, 189);
+    height: 5vh;
+}
+
 .BottomFoot {
     background-color: var(--b_footerbg);
     height: 50px;

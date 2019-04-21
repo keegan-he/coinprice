@@ -2,7 +2,6 @@ console.log('running this javascript!!!!!!!!!!!')
 
 let state = [];
 
-
 function displayOutput() {
     console.log('running display output function!')
     for (let x of state.data) {
@@ -22,7 +21,6 @@ function displayOutput() {
             let bar = document.createElement("div");
             bar.classList.add("BarChart-bar")
             bar.style.height = height + "%";
-            console.log(name)
             chart.appendChild(bar)
             console.log(bar)
 
@@ -31,11 +29,20 @@ function displayOutput() {
             let chart = document.querySelector("#GraphBox");
             let heightsize = x.price_usd
             let height = heightsize;
+            
+            //Trying to fill name into css box // 
+            let name = document.createElement("div");
+            name.textContent = "this is LTC";
+            console.log("this is name", name)
+
+
             let bar = document.createElement("div");
             bar.classList.add("BarChart-bar")
             bar.style.height = height + "%";
+            //chart.appendChild(name) // - adds to the DIV
             chart.appendChild(bar)
             console.log(bar)
+
         } else if (x.symbol === "ETH") {
             console.log("ETH price in USD: ", x.price_usd);
             let chart = document.querySelector("#GraphBox");
