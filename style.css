@@ -50,8 +50,14 @@
 
 .BottomFoot {
     background-color: var(--b_footerbg);
-    height: 50px;
+    height: 1vh;
     align-self: center;
+}
+
+.Button {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
 }
 
 #GraphBox {
