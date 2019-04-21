@@ -15,8 +15,8 @@ https://api.coinlore.com/api/tickers/
 * BTC
 * LTC
 * ETH
-* VET
 * XLM
+* VET
 
 ### Todo:
 
@@ -24,6 +24,8 @@ https://api.coinlore.com/api/tickers/
 * ~Loop through for specified coin info~
 * ~Add coin names~
 * ~Update coin name display (CSS)~
+* Add function to dispay price outside console
 * Add input box for new coin
 * UI / CSS change for update button
 * Add price to UI
+* Font update for coin text
