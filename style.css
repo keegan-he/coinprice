@@ -37,8 +37,20 @@
 }
 
 .Coins {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background-color: rgb(135, 157, 189);
-    height: 5vh;
+    height: 5vh; */
+    background-color: rgb(135, 157, 189);
+    display: grid;
+    padding-left: 10%;
+    align-self: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20px;
+    grid-row-gap: 10px;
+    grid-column-gap: 30px;
+
 }
 
 .BottomFoot {
