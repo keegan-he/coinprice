@@ -26,3 +26,4 @@ https://api.coinlore.com/api/tickers/
 * ~Update coin name display (CSS)~
 * Add input box for new coin
 * UI / CSS change for update button
+* Add price to UI
