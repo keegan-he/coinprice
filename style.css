@@ -52,6 +52,7 @@
     background-color: var(--b_footerbg);
     height: 1vh;
     align-self: center;
+    
 }
 
 .Button {
@@ -71,6 +72,9 @@
     grid-row-gap: 1px;
     grid-column-gap: 30px;
 
+}
+#PriceBox {
+    background-color: #113f67;
 }
 
 .BarChart-bar {
