@@ -12,9 +12,9 @@ function displayOutput() {
             console.log("BTC price in USD: ", x.price_usd)
             let chart = document.querySelector("#GraphBox");
             let heightsize = x.price_usd
-          //let height = heightsize;
+            //let height = heightsize;
             let maxheight = 400;
-            if (heightsize > maxheight){
+            if (heightsize > maxheight) {
                 height = heightsize / 10
             } else {
                 height === heightsize
@@ -36,11 +36,7 @@ function displayOutput() {
             bar.style.height = height + "%";
             chart.appendChild(bar)
             console.log(bar)
-        } 
-
-
-        
-        else if (x.symbol === "ETH") {
+        } else if (x.symbol === "ETH") {
             console.log("ETH price in USD: ", x.price_usd);
             let chart = document.querySelector("#GraphBox");
             let heightsize = x.price_usd
