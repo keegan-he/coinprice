@@ -53,7 +53,7 @@
                   //let height = heightsize;
                     let maxheight = 400;
                     if (heightsize > maxheight){
-                        height = heightsize / 15
+                        height = heightsize / 10
                     } else {
                         height === heightsize
                     }
@@ -64,17 +64,17 @@
                     chart.appendChild(bar)
                     console.log(bar)
 
-                } //else if (x.symbol === "LTC") {
-                  //  console.log("LTC price in USD: ", x.price_usd);
-                  //  let chart = document.querySelector("#GraphBox");
-                  //  let heightsize = x.price_usd
-                  //  let height = heightsize;
-                  //  let bar = document.createElement("div");
-                  // bar.classList.add("BarChart-bar")
-                  //bar.style.height = height + "%";
-                  // chart.appendChild(bar)
-                  //console.log(bar)
-                //} 
+                } else if (x.symbol === "LTC") {
+                    console.log("LTC price in USD: ", x.price_usd);
+                    let chart = document.querySelector("#GraphBox");
+                    let heightsize = x.price_usd
+                    let height = heightsize;
+                    let bar = document.createElement("div");
+                    bar.classList.add("BarChart-bar")
+                    bar.style.height = height + "%";
+                    chart.appendChild(bar)
+                    console.log(bar)
+                } 
 
 
                 
